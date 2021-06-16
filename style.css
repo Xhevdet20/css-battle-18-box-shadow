@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100vh;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	height: 300px;
+	width: 400px;
+	background: #5c434c;
+	position: relative;
+}
+
+.a {
+	position: absolute;
+	height: 80px;
+	width: 80px;
+	background: #f09462;
+	left: 10px;
+	top: 10px;
+	border-radius: 100px 0 0 0;
+	box-shadow: 100px 0 #f5d6b4, 200px 0 #f09462, 300px 0 #f5d6b4, 0 100px #f5d6b4,
+		100px 100px #f09462, 200px 100px #f5d6b4, 300px 100px #f09462,
+		0 200px #f09462, 100px 200px #f5d6b4, 200px 200px #f09462,
+		300px 200px #f5d6b4;
+}
